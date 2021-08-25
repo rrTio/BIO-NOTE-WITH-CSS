@@ -1,7 +1,11 @@
 header {
   padding: 5px;
   background-color: #000000;
-  margin-bottom: 10px;
+  margin: 0;
+}
+
+#rozs {
+  color: #00ff00;
 }
 
 img {
@@ -33,7 +37,6 @@ img {
 .facebook:hover {
   background: #4267b2;
   color: white;
-  text-color: #ffffff;
 }
 
 .twitter {
