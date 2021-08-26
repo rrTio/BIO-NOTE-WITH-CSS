@@ -12,6 +12,7 @@ body {
   background-color: #c9c9c9;
   margin-left: -10px;
   margin-right: -10px;
+  overflow: auto;
 }
 
 #rozs {
