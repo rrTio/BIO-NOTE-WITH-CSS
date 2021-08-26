@@ -1,25 +1,33 @@
 header {
   padding: 5px;
   background-color: #000000;
-  margin: 0;
+  margin-bottom: 10;
+  margin-top: -10px;
+  margin-left: -5px;
+  margin-right: -5px;
+  overflow: auto;
 }
 
 #rozs {
-  color: #00ff00;
+  text-align: center;
+  background-color: #000000;
+  color: #ecc032;
 }
 
 img {
   border-radius: 10%;
 }
 
-.socMedList {
+#socialMedias {
   padding: 5px;
   background-color: #000000;
+  color: #ecc032;
   margin-bottom: 10px;
+  font-size: 25px;
+  text-align: center;
 }
 
-.btn {
-  border: 2px solid black;
+#btn_facebook {
   border-radius: 8px;
   background-color: #c9c9c9;
   color: black;
@@ -27,44 +35,62 @@ img {
   font-size: 16px;
   cursor: pointer;
   transition-duration: 0.4s;
-}
-
-.facebook {
   border-color: #4267b2;
   color: #4267b2;
 }
 
-.facebook:hover {
+#btn_facebook:hover {
   background: #4267b2;
   color: white;
 }
 
-.twitter {
+#btn_twitter {
+  border-radius: 8px;
+  background-color: #c9c9c9;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
   border-color: #00acee;
   color: #00acee;
 }
 
-.twitter:hover {
+#btn_twitter:hover {
   background: #00acee;
   color: white;
 }
 
-.instagram {
+#btn_instagram {
+  border-radius: 8px;
+  background-color: #c9c9c9;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
   border-color: #8a3ab9;
   color: #8a3ab9;
 }
 
-.instagram:hover {
+#btn_instagram:hover {
   background: #8a3ab9;
   color: white;
 }
 
-.github {
+#btn_github {
+  border-radius: 8px;
+  background-color: #c9c9c9;
+  color: black;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  transition-duration: 0.4s;
   border-color: #000000;
   color: #000000;
 }
 
-.github:hover {
+#btn_github:hover {
   background: #000000;
   color: white;
 }
